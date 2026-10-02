@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 body{
-background-color: white;
 min-height: 100vh;
 margin: 30px;
 display: flex;
@@ -15,11 +14,12 @@ align-items: center;
 .card{
    
     font-family: Nunito, sans-serif; 
+    background-color: #fbfbfd;
     width:750px;
-    background-color: #ffffff;
-    box-shadow: 0000;
+    box-shadow:-20px -5px 20px 4px whitesmoke;
     display: flex;
     overflow: hidden; /* coupe les vagues aux bords arrondis */
+    border-radius: 16px;
     
 }
 
@@ -32,7 +32,7 @@ align-items: center;
     padding: 30px;
     justify-content: center;
     align-items: center;
-    border-radius: 16px 0 0 16px;
+    
 }
 
 #img1{
@@ -97,7 +97,6 @@ align-self: start;
     flex-direction: column;
     position: relative;
     padding:20px;
-    border-radius: 0 16px 16px 0;
 }
 
 #btn2{
@@ -157,12 +156,8 @@ align-self: start;
    padding-right: 50px;
    position: relative;
 }
-.citations span{
-   position: absolute;
-    top: 560px;
-    right: 175px;
+
     
-}
  
 
     
